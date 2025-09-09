@@ -2,7 +2,7 @@ from pymodbus.client import ModbusTcpClient
 import time
 
 # Crear una instancia del cliente Modbus TCP
-PLC = ModbusTcpClient("192.168.1.17")
+PLC = ModbusTcpClient("192.168.1.13")
 
 # Conectar al PLC
 PLC.connect()
